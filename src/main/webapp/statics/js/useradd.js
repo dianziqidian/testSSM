@@ -51,7 +51,7 @@ $(function () {
 
     // http://localhost:8080/ssm/role/roleList ，获取角色名称
     $.ajax({
-        type: "GET",//请求类型
+        type: "POST",//请求类型
         // url:path+"/jsp/user.do",//请求的url
         url: "/ssm/role/roleList",//请求的url
         // data:{method:"getrolelist"},//请求参数（向服务器发起请求时发送的参数）

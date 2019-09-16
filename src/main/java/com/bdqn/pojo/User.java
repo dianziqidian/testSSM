@@ -191,4 +191,28 @@ public class User implements Serializable {
     public void setWorkPicPath(String workPicPath) {
         this.workPicPath = workPicPath;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userCode='" + userCode + '\'' +
+                ", userName='" + userName + '\'' +
+                ", userPassword='" + userPassword + '\'' +
+                ", gender=" + gender +
+                ", birthday=" + birthday +
+                ", phone='" + phone + '\'' +
+                ", address='" + address + '\'' +
+                ", userRole=" + userRole +
+                ", createdBy=" + createdBy +
+                ", creationDate=" + creationDate +
+                ", modifyBy=" + modifyBy +
+                ", modifyDate=" + modifyDate +
+                ", userRoleName='" + userRoleName + '\'' +
+                ", role=" + role +
+                ", addressList=" + addressList +
+                ", idPicPath='" + idPicPath + '\'' +
+                ", workPicPath='" + workPicPath + '\'' +
+                '}';
+    }
 }

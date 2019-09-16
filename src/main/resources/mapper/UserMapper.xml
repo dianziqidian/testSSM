@@ -249,7 +249,7 @@
     </select>
 
 
-    <!--数据库中修改用户信息 SET(,,,,) VALUES (,,,,);-->
+    <!--数据库中修改用户信息 SET(userCode`=`'值',userName`=`'值');-->
     <update id="updateUserByUser" parameterType="User">
         UPDATE `smbms_user`
         <set>
